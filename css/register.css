@@ -1,0 +1,155 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	outline: none;
+	list-style: none;
+}
+/*header开始*/
+.header{
+	width: 100%;
+	height: 80px;
+	border-bottom: 1px solid #ccc;
+}
+.header-box{
+	width: 1200px;
+	height: 80px;
+	/*background: red;*/
+	margin: 0 auto;
+	/*line-height: 80px;*/
+}
+.header-box .logo{
+	float: left;
+	margin-top: 10px;
+}
+.header-box .logo img{
+	float: left;
+	
+}
+.header-box .logo h3{
+	float: left;
+	margin: 12px 0 0 10px;
+}
+.header-box .nav{
+	float: right;
+	width: 320px;
+	height: 80px;
+	/*background: yellow;*/
+	line-height: 80px;
+}
+.nav span{
+	font-size: 14px;
+	color:#999999;
+}
+.nav a.sign{
+	font-size: 14px;
+	color: #0066cc;
+}
+.nav img{
+	margin-left: 5px;
+	vertical-align: middle;
+}
+.nav a.help{
+	font-size: 14px;
+	color: #333333;
+} 
+/*header结束*/
+
+/*content开始*/
+.content{
+	width: 100%;
+	height: 533px;
+	border-bottom: 1px solid #ccc;
+	background: #fcfcfc;
+}
+.content-box{
+	width: 1200px;
+	height: 533px;
+	/*background: red;*/
+	margin: 0 auto;
+}
+.content-box-content{
+	width: 420px;
+	height: 533px;
+	/*background: yellow;*/
+	margin: 0 auto;
+}
+.input{
+	height: 52px;
+	/*background: green;*/
+	margin-top: 10px;
+	position: relative;
+}
+.input-top{
+	margin-top: 20px;
+}
+.input input{
+	width: 328px;
+	height: 50px;
+	border:1px solid #ccc;
+	margin-left: 40px;
+	text-indent: 15px;
+}
+.input span{
+	position: absolute;
+	color: #666666;
+	left: 55px;
+	top: 15px;
+}
+.input-two input{
+	width: 130px;
+	float: left;
+	margin-right: 5px;
+}
+.input-two img{
+	height: 50px;
+	/*float: left;*/
+}
+.input-three input{
+	width: 192px;
+	height: 50px;
+}
+.input-three button{
+	width: 126px;
+	height: 52px;
+	border: none;
+	background: #57565f;
+	margin-left:5px;
+	color: #fff;
+}
+.content-box-content h3{
+	text-align: center;
+	margin-top: 10px;
+}
+.content-box-content p{
+	font-size: 12px;
+	color: #666666;
+	text-align: center;
+	margin-top: 22px;
+}
+.content-box-content p a{
+	color: #0066cc;
+}
+.content-box-content a.a_button{
+	display: block;
+	width: 330px;
+	height: 52px;
+	background: #ff3c3c;
+	color: #fff;
+	margin: 0 auto;
+	line-height: 52px;
+	text-align: center;
+	margin-top: 17px;
+}
+/*content结束*/
+
+/*footer开始*/
+.footer p{
+	text-align: center;
+	font-size: 14px;
+	color: #333333;
+}
+.footer p:first-child{
+	margin-top: 20px;
+}
+/*footer结束*/

@@ -1,0 +1,7 @@
+.top-banner{
+	background:url(../img/title.jpg) no-repeat;
+	background-size: cover;
+}
+.logo-wrap .logo{
+	background-position:0 -312px;
+}
